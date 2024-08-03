@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 import { useGetTasksQuery } from "./redux/features/api/taskAPI";
-
+//
 const App = () => {
   const {
     isLoading: isTaskLoading,
