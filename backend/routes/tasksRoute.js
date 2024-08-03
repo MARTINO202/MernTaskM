@@ -2,7 +2,7 @@ const express = require("express");
 const Task = require("../models/task");
 const router = express.Router();
 
-// Create a new task
+// Create a new task //
 router.post("/add-task", async (req, res) => {
   try {
     const { title, description, status } = req.body;
