@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 const taskAPI = createApi({
   reducerPath: "taskAPI",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3000",
+    baseUrl: "https://merntaskm.onrender.com", //http://localhost:3000
   }),
   endpoints: (build) => ({
     getTasks: build.query({
